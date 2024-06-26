@@ -1,18 +1,21 @@
 import React from 'react';
-import { View, Image, Text, ImageSourcePropType } from 'react-native';
+import { Image, Text, ImageSourcePropType, View, TouchableOpacity } from 'react-native';
 import styles from './styles';
 
 export interface CardProps {
   title: string;
   image: ImageSourcePropType;
+  onPress: () => void;
 }
 
-const Card = ({ image, title }: CardProps) => {
+const Card = ({ image, title, onPress }: CardProps) => {
   return (
-    <View>
-      <Image source={image} style={styles.image} />
-      <Text style={styles.title}>{title}</Text>
-    </View>
+    <TouchableOpacity onPress={onPress}>
+      <View>
+        <Image source={image} style={styles.image} />
+        <Text style={styles.title}>{title}</Text>
+      </View>
+    </TouchableOpacity>
   );
 };
 
