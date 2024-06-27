@@ -18,7 +18,7 @@ const ButtonCarousel = ({ labels, onPressLabel }: ButtonCarouselProps) => {
       horizontal
     >
       {labels.map((label, index) => (
-        <View style={styleMargin(index === 0)}>
+        <View style={styleMargin(index === 0)} key={label}>
           <TagButton onPress={() => onPressLabel(label)} text={label} />
         </View>
       ))}
