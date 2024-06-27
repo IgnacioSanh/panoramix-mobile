@@ -1,13 +1,11 @@
 import React from 'react';
-import { View, Text, SafeAreaView } from 'react-native';
-
-import fontStyle from '../../theme/fonts';
-import ButtonCarousel from '../../components/buttonCarousel/buttonCarousel';
-import CardsDisplay from '../../components/cardsDisplay/cardsDisplay';
-import Screen from '../../components/screen/screen';
-import TagButton from '../../components/tagButton/tagButton';
+import { View, Text } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { ScreenNames } from '../../types/screen';
+
+import fontStyle from '~theme/fonts';
+import ButtonCarousel from '~components/buttonCarousel/buttonCarousel';
+import CardsDisplay from '~components/cardsDisplay/cardsDisplay';
+import Screen from '~components/screen/screen';
 
 const days = ['Today', 'Tomorrow', 'This Week', 'Weekend'];
 

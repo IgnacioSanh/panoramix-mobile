@@ -1,9 +1,9 @@
 import React from 'react';
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import { ScreenNames } from '../types/screen';
-import Explore from '../views/explore/explore';
-import EventDetail from '../views/eventDetail/eventDetail';
+import { ScreenNames } from '~types/screen';
+import Explore from '~screens/explore/explore';
+import EventDetail from '~screens/eventDetail/eventDetail';
 
 const Stack = createNativeStackNavigator<{[ScreenNames.EXPLORE]: undefined, [ScreenNames.EVENT_DETAIL]: undefined }>()
 

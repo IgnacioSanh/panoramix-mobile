@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { BorderRadius, Spacings } from '../../theme/spacings';
+import { BorderRadius, Spacings } from '~theme/spacings';
 
 const styles = StyleSheet.create({
   image: {
