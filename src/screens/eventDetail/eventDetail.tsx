@@ -1,7 +1,7 @@
 import { Text } from "react-native"
 
-import fontStyle from "../../theme/fonts"
-import Screen from "../../components/screen/screen"
+import fontStyle from "~theme/fonts"
+import Screen from "~components/screen/screen"
 
 const EventDetail = () => {
   return (

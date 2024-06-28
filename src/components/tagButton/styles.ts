@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
-import { BorderRadius, Spacings } from '../../theme/spacings';
-import { Colors } from '../../theme/colors';
+import { BorderRadius, Spacings } from '~theme/spacings';
+import { Colors } from '~theme/colors';
 
 const styles = StyleSheet.create({
   wrapper: {

@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
-import { Spacings } from '../../theme/spacings';
+
+import { Spacings } from '~theme/spacings';
 
 const styles = StyleSheet.create({
   columnWrapper: {

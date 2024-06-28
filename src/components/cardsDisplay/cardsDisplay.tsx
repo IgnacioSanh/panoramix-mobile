@@ -1,10 +1,11 @@
 import React from 'react';
-import { FlatList, ImageSourcePropType, View } from 'react-native';
-import Card from '../card/card';
-import Images from '../../images/images';
-import styles from './styles';
 import { useNavigation } from '@react-navigation/native';
-import { ScreenNames } from '../../types/screen';
+import { FlatList, ImageSourcePropType, View } from 'react-native';
+
+import Images from '~images/images';
+import { ScreenNames } from '~types/screen';
+import styles from './styles';
+import Card from '../card/card';
 
 interface CategoryCard {
   label: string;

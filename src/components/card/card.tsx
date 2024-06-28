@@ -1,5 +1,6 @@
 import React from 'react';
 import { Image, Text, ImageSourcePropType, View, TouchableOpacity } from 'react-native';
+
 import styles from './styles';
 
 export interface CardProps {

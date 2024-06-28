@@ -3,9 +3,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'; 
 import 'react-native-gesture-handler';
 
-import { ScreenNames } from '../types/screen';
-import Home from '../views/home/home';
-import MapScreen from '../views/mapScreen/mapScreen';
+import { ScreenNames } from '~types/screen';
+import Home from '~screens/home/home';
+import MapScreen from '~screens/mapScreen/mapScreen';
 import ExploreNavigator from './exploreNavigator';
 
 const Tab = createBottomTabNavigator()

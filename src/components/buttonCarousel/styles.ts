@@ -1,5 +1,6 @@
 import { StyleSheet, ViewStyle } from 'react-native';
-import { Spacings } from '../../theme/spacings';
+
+import { Spacings } from '~theme/spacings';
 
 export const styles = StyleSheet.create({
   wrapper: {

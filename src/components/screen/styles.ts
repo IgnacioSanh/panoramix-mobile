@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
-import {Colors} from '../../theme/colors';
 
-import {Spacings} from '../../theme/spacings';
+import {Colors} from '~theme/colors';
+import {Spacings} from '~theme/spacings';
 
 const styles = StyleSheet.create({
   flex: {
