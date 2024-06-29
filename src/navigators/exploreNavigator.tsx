@@ -9,7 +9,7 @@ const Stack = createNativeStackNavigator<{[ScreenNames.EXPLORE]: undefined, [Scr
 
 const ExploreNavigator = () => {
   return (
-    <Stack.Navigator initialRouteName={ScreenNames.EXPLORE}>
+    <Stack.Navigator initialRouteName={ScreenNames.EXPLORE} screenOptions={{ headerShown: false }}>
       <Stack.Screen name={ScreenNames.EXPLORE} component={Explore} />
       <Stack.Screen name={ScreenNames.EVENT_DETAIL} component={EventDetail} />
     </Stack.Navigator>
