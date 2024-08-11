@@ -8,6 +8,7 @@ import Home from '~screens/home/home';
 import MapScreen from '~screens/mapScreen/mapScreen';
 import ExploreNavigator from './exploreNavigator';
 import { ExploreIcon, ForYouIcon, MapIcon } from './tabIcons';
+import ForYouNavigator from './forYouNavigator';
 
 const Tab = createBottomTabNavigator()
 
@@ -15,7 +16,7 @@ const RootNavigator = () => {
   return (
     <NavigationContainer>
       <Tab.Navigator screenOptions={{headerShown: false}} initialRouteName={ScreenNames.EXPLORE}>
-        <Tab.Screen name={ScreenNames.HOME} component={Home} options={{ title: 'For You', tabBarIcon: ForYouIcon }} />
+        <Tab.Screen name={ScreenNames.FOR_YOU_NAVIGATOR} component={ForYouNavigator} options={{ title: 'For You', tabBarIcon: ForYouIcon }} />
         <Tab.Screen name={ScreenNames.MAP} component={MapScreen} options={{ title: 'Map', tabBarIcon: MapIcon }} />
         <Tab.Screen name={ScreenNames.EXPLORE_NAVIGATOR} component={ExploreNavigator} options={{ title: 'Explore', tabBarIcon: ExploreIcon }} />
       </Tab.Navigator>

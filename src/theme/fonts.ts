@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { Colors } from './colors';
 
 enum FontSize {
   SMALL = 8,
@@ -12,6 +13,20 @@ const fontStyle = StyleSheet.create({
     fontSize: FontSize.EXTRA_LARGE,
     fontWeight: 'bold',
   },
+  h2: {
+    fontSize: FontSize.LARGE,
+    fontWeight: 'bold',
+  },
+  regular: {
+    fontSize: FontSize.REGULAR,
+    fontWeight: 'regular',
+  },
+  gray: {
+    color: Colors.FONT_GRAY
+  },
+  largeLineHeight: {
+    lineHeight: 22
+  }
 });
 
 export default fontStyle;
